@@ -8,4 +8,8 @@ $(function() {
 
   coverMeLikeABlanket();
 
+  $(window).on('hashchange',function(){ 
+    coverMeLikeABlanket();
+  });
+
 });
