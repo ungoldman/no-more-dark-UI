@@ -1,15 +1,8 @@
 $(function() {
 
-  coverMeLikeABlanket = function() {
-    $(".dashboard-left").hide();
-    $(".dashboard-right").hide();
-    $(".moments").hide();
+  coverMeLikeABlanket = function() {    
+    $('head').append('<style id="everyoneChill">.dashboard-left,.dashboard-right,.moments,.SidebarCommonModules { display: none };</style>');
   };
 
-  coverMeLikeABlanket();
-
-  $(window).on('hashchange',function(){ 
-    coverMeLikeABlanket();
-  });
-
+  coverMeLikeABlanket(".dashboard-left", '');
 });
