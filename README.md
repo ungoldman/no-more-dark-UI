@@ -1,4 +1,4 @@
-github's new dark UI sucks
+no more dark nav bar!!! bring in the LIGHT!!
 
 how 2 use:
 - clone this to your machine
