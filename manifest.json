@@ -1,6 +1,6 @@
 {
-  "name": "Fuck Twitter",
-  "description": "stop showing me crap",
+  "name": "GitHub UI Fixer",
+  "description": "stop it with the bad UI changes",
   "manifest_version": 2,
   "version": "2.0",
   "permissions": [
@@ -9,9 +9,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://twitter.com/*"
+        "https://github.com/*"
       ],
-      "js": ["jquery.min.js", "twitter-blanket.js"]
+      "js": ["jquery.min.js", "github-blanket.js"]
     }
   ],
   "permissions": ["tabs"]
